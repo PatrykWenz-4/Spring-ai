@@ -1,3 +1,5 @@
+30/11/2024
+
 This is a project that implements using AI with spring.
 
 To properly use it first it is needed to install Ollama
@@ -30,3 +32,9 @@ http://localhost:8080/?m=hi
 
 ![image](https://github.com/user-attachments/assets/e7654770-42b0-4eff-b507-671e19c14806)
 
+-----------------------------------------------------------------------------------------
+
+The occuring problems with this implementation:
+- No chat memory
+- No proper input bar
+- No chat history
