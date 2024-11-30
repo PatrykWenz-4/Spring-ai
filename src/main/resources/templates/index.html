@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Chat Application</title>
+    <title>AI Chat</title>
 </head>
 <body>
-<h1>Chat Application</h1>
-<form method="get" th:action="@{/}">
-    <label for="message">Enter your message:</label>
-    <input type="text" id="message" name="m" placeholder="Type your message" required>
+<h1>AI Chat</h1>
+<form action="/" method="get">
+    <input type="text" name="m" placeholder="Type your message..." required>
     <button type="submit">Send</button>
 </form>
-
-<div>
-    <h2>Response:</h2>
-    <!-- Show the response if it exists -->
-    <p th:text="${response}">No response yet.</p>
-</div>
 </body>
 </html>
