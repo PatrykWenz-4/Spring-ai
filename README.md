@@ -23,7 +23,10 @@ Setting up the basic AI conversation:
 
 ![image](https://github.com/user-attachments/assets/6184e027-6625-4bcf-bbe9-e7c4d9e019f7)
 
+In order to begin the conversation we use string 'm' in the address bar of web browser.
+For example:
+http://localhost:8080/?m=hi
+
 
 ![image](https://github.com/user-attachments/assets/e7654770-42b0-4eff-b507-671e19c14806)
 
-http://localhost:8080/?m=hi
