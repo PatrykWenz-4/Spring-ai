@@ -38,3 +38,17 @@ The occuring problems with this implementation:
 - No chat memory
 - No proper input bar
 - No chat history
+
+----------------------------------------------------------------------------------------
+
+React FrontEnd
+
+In terminal:
+```
+npx create-react-app ai-chat
+cd ai-chat
+npm start
+```
+
+
+
