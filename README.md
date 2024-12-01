@@ -8,7 +8,7 @@ https://ollama.com/download
 In my case I use model llama3.2 1B 
 To download use:
 ```
-ollama pul llama3.2:1b
+ollama pull llama3.2:1b
 ```
 
 ![image](https://github.com/user-attachments/assets/67bc7da5-b159-46b3-a289-7c722f7b1c14)
