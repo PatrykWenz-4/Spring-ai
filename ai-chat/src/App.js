@@ -8,7 +8,7 @@ function App() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await fetch(`http://localhost:8080/?m=${encodeURIComponent(message)}`);
+            const res = await fetch(`http://localhost:8080/?m=${(message)}`);
             const data = await res.text();
             setResponse(data);
         } catch (error) {
