@@ -22,7 +22,7 @@ function App() {
                    value={message}
                    onChange={(e) => setMessage(e.target.value)}
                />
-               <button>Send</button>
+                <button type="submit">Send</button>
            </form>
             <div>
                 {response}
